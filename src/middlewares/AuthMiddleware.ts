@@ -17,4 +17,4 @@ function ManagerMiddleware(req, res, next) {
   }
 }
 
-module.exports = { AuthMiddleware, ManagerMiddleware };
+export default { AuthMiddleware, ManagerMiddleware };
