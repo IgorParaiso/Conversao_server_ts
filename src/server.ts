@@ -2,9 +2,9 @@ require('dotenv').config({
   path: process.env.NODE_ENV === 'dev' ? '.env.dev' : '.env',
 });
 
-const express = require('express');
-const roteadorAlunos = require('./routes/AlunosRoutes');
-const roteadorStatic = require('./routes/StaticRoutes');
+import express = require('express');
+import roteadorAlunos from './routes/AlunosRoutes';
+import roteadorStatic from './routes/StaticRoutes';
 
 const port = process.env.PORT;
 const app = express();
