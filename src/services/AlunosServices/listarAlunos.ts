@@ -9,4 +9,4 @@ async function listarAlunos() {
   }
 }
 
-module.exports = listarAlunos;
+export default listarAlunos;

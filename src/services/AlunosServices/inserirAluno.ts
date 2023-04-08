@@ -8,4 +8,4 @@ async function inserirAluno(aluno) {
   }
 }
 
-module.exports = inserirAluno;
+export default inserirAluno;
